@@ -24,13 +24,30 @@
         // username.innerText = 'Sanidhya Singh Pundeer';
 
         // query selector using class .
+        // returns multiple elements fo iterate using for loop
 
-        const ele = document.querySelector('div');
-        const eles = document.querySelectorAll('div');//returns all the elements with div name, returns a nodelist 
+
+        
+        const ele = document.getElementsByClassName('block');
+        // const eles = document.querySelectorAll('div');//returns all the elements with div name, returns a nodelist 
         console.log(ele);
-        console.log(ele.children);// returns the children of the element
-        console.log(ele.parentElement);// returns the parent of the element
-        console.log(ele.parentElement.children);// returns the children of the parent of the element (siblings)
+        // console.log(ele.children);// returns the children of the element
+        // console.log(ele.parentElement);// returns the parent of the element
+        //console.log(ele.parentElement.children);// returns the children of the parent of the element (siblings)
+        // console.log(ele.classList);// returns the list of classes
+        // ele.style.textDecoration = 'underline';// to apply in line styling using js
+
+
+
+
+        for(i in ele){
+          console.log(ele[i]);//returns elements at index i
+          ele.item(i).style.backgroundColor = 'black';
+        }
+
+
+
+
 
 
 

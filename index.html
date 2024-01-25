@@ -4,12 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM Query Selector</title>
+    <title>JS Notes</title>
 </head>
-<!-- <script src="basics101_script.js"></script>
-<script src="basics102_script.js"></script>
-<script src="basics103_script.js"></script> -->
-<script src="DOM.js"></script>
 
 <body>
     <!-- <h3>DOM</h3>
@@ -24,7 +20,7 @@
         <p class="paragraph"> Welcome to my wbesite</p>
     </nav>
     <div class="block">
-        <h4>Hey there, My name is <span id="username">Sanidhya Pundeer</span></h4>
+        <h4 id="name">Hey there, My name is <span id="username">Sanidhya Pundeer</span></h4>
         <p class="paragraph">Here is a code snippet for you</p>
         <pre><code>console.log('Hey There')</code></pre>
     </div>
@@ -35,6 +31,30 @@
         </div>
     </div> -->
 
+    <!-- First method for event listening using inline js
+    <button onclick="console.log('button just clicked')">Click me</button>
+    rather than writing the code inline make a function and call the function in the attribute of button tag -->
+
+    <!-- Second method of event listening using linked script, calling a function
+    <button onclick="handleButton()">Click me</button> -->
+
+    <!-- Third Method, giving id to the button -->
+    <button id="myButton">Click me</button>
+
+
+    <div id="myContainer">
+
+    </div>
+
+
 </body>
+
+
+<script src="elementCreation.js"></script>
+<!-- <script src="eventListeners.js"></script> -->
+<!-- <script src="basics101_script.js"></script>
+<script src="basics102_script.js"></script>
+<script src="basics103_script.js"></script> -->
+<!-- <script src="DOM.js"></script> -->
 
 </html>
