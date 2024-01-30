@@ -30,10 +30,3 @@ async function fetchData(){// write async before declaring
     let smth = await 'done smth'// use await to bind the function to the task 
     console.log(smth);
 }
-
-
-
-
-
-
-

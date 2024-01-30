@@ -59,7 +59,3 @@ console.log(person.firstName);
 
 //typeof operator 
 // returns the type of the operator 
-
-
-
-
