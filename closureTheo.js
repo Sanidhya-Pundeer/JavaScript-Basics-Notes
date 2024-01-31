@@ -19,7 +19,9 @@ let fn = main(); // assigning a function to a variable.
 // and incase of no return statement, it stores the result which is undefined 
 
 
-fn();// here fn is a function
+console.log(fn);
+fn();
+// here fn is a function
 // console.log(fn); // here fn is a variable, contains return statement of main()
 
 
@@ -28,15 +30,15 @@ fn();// here fn is a function
 
 //------------- Practical Use Case:------------
 
-function adder(num1){
-    function add(num2){
-        console.log(num1 + num2);
-    }
-    return add;
-}
+// function adder(num1){
+//     function add(num2){
+//         console.log(num1 + num2);
+//     }
+//     return add;
+// }
 
-const addTo5 = adder(5);
-const addTo10 = adder(10);
-addTo5(2);
-addTo10(6);
+// const addTo5 = adder(5);
+// const addTo10 = adder(10);
+// addTo5(2);
+// addTo10(6);
 
